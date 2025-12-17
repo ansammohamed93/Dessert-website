@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Sweet Bliss Bakery</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+ 
+  <!-- Navbar -->
+  <header id="header">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">SweetBliss</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Who We Are</a></li>
+            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cake-builder">your cake</a></li>
+            <li class="nav-item"><a class="nav-link" href="#offers">Offers</a></li>
+            <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+            <li class="nav-item"><a class="nav-link" href="#newsletter">feedback</a></li>
+            <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
+
+          </ul>
+      
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content text-center">
+      <h1 class="hero-title">Discover Your Sweet Taste</h1>
+      <p class="hero-subtitle">Cakes • Donuts • Chocolate dessert • apple dessert</p>
+      <a href="#menu" class="btn hero-btn">Explore Menu</a>
+    </div>
+  </section>
+
+ <!-- About Section -->
+<section id="about" class="about-section ">
+
+<div class="container d-flex flex-wrap align-items-center about-contant">
+  <!-- الصورة -->
+  <div class="about-image col-md-6 mb-4 mb-md-0">
+    <img src="images/pinkheart.avif" alt="Bakery">
+  </div>
+  <!-- النص -->
+  <div class="about-text col-md-6" >
+      <h2 class="section-title">Who We Are</h2>
+    <p class="section-subtitle">At SweetBliss, we craft delightful pastries and treats with love and care. Every bite is a moment of happiness.</p>
+    <div class="row mt-4">
+      <div class="col-md-4 text-center">
+        <i class="fas fa-bread-slice fa-3x mb-3"></i>
+        <h5>Freshly Baked</h5>
+      </div>
+      <div class="col-md-4 text-center">
+     <i class="fa-solid fa-cake-candles fa-3x mb-3"></i>
+        <h5>Delicious Cakes</h5>
+      </div>
+      <div class="col-md-4 text-center">
+        <i class="fa-solid fa-stroopwafel fa-3x mb-3"></i>
+        <h5>special donuts</h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<!-- Menu Section -->
+<section id="menu" class="menu-section">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">Our Menu</h2>
+    <div class="row g-4 justify-content-center">
+      <!-- Cake Card -->
+      <div class="col-md-4 col-sm-6 menu-item">
+        <div class="menu-card" onclick="window.location.href='cakes.html'">
+          <img src="images/cake.jpg" alt="Cakes" class="img-fluid">
+          <h5 class="menu-title">Cakes</h5>
+          <p class="menu-desc">Delicious cakes for every occasion.</p>
+        </div>
+      </div>
+      <!-- Donut Card -->
+      <div class="col-md-4 col-sm-6 menu-item">
+        <div class="menu-card" onclick="window.location.href='donuts.html'">
+          <img src="images/donut.jpg" alt="Donuts" class="img-fluid">
+          <h5 class="menu-title">Donuts</h5>
+          <p class="menu-desc">Sweet, glazed, and freshly baked donuts.</p>
+        </div>
+      </div>
+      <!-- Pastry Card -->
+      <div class="col-md-4 col-sm-6 menu-item">
+        <div class="menu-card" onclick="window.location.href='chocolate.html'">
+          <img src="images/chocolate.jpg" alt="Pie" class="img-fluid">
+          <h5 class="menu-title">chocolate dessert</h5>
+          <p class="menu-desc">chocolate, buttery, and delightful pastries.</p>
+        </div>
+      </div>
+      <!-- Drinks Card -->
+      <div class="col-md-4 col-sm-6 menu-item">
+        <div class="menu-card" onclick="window.location.href='apple.html'">
+          <img src="images/apple.jpg" alt="Drinks" class="img-fluid">
+          <h5 class="menu-title">apple dessert</h5>
+          <p class="menu-desc">fresh apple desserts</p>
+        </div>
+      </div>
+      <!-- Specials Card -->
+      <div class="col-md-4 col-sm-6 menu-item">
+        <div class="menu-card" onclick="window.location.href='specials.html'">
+          <img src="images/special.jpg" alt="Specials" class="img-fluid">
+          <h5 class="menu-title">Specials</h5>
+          <p class="menu-desc">Our chef’s special creations.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Cake Builder Section -->
+<section id="cake-builder" class="cake-builder-section">
+  <div class="container">
+    <h2 class="section-title text-center mb-4">Build Your Cake 🍰</h2>
+    <div class="builder-wrapper">
+      <!-- Canvas -->
+      <div class="cake-canvas-wrapper">
+        <canvas id="cakeCanvas" width="400" height="400"></canvas>
+      </div>
+
+      <!-- Toolbox -->
+      <div class="cake-toolbox">
+        <h4>Choose Cake Base</h4>
+        <div class="cake-base-options">
+          <img src="images/rounded-vanilla.png" alt="Round Vanilla" class="cake-base" data-type="round_vanilla">
+          <img src="images/rounded-choclate.png" alt="Round Chocolate" class="cake-base" data-type="round_chocolate">
+          <img src="images/square-vanilla.png" alt="Square Vanilla" class="cake-base" data-type="square_vanilla">
+          <img src="images/squire-chocolate.png" alt="Square Chocolate" class="cake-base" data-type="square_chocolate">
+        </div>
+
+        <h4>Add Cream</h4>
+        <div class="cake-cream-options">
+          <img src="images/vanilla-cream.png" alt="Vanilla Cream" class="cake-cream" data-type="vanilla">
+          <img src="images/chocolate-cream.png" alt="Chocolate Cream" class="cake-cream" data-type="chocolate">
+
+        </div>
+
+        <h4>Add Toppings</h4>
+        <div class="cake-extra-options">
+          <img src="images/choco.png" alt="Choco Topping" class="cake-extra" data-type="choco">
+          <img src="images/color-marsh.png" alt="Choco Topping" class="cake-extra" data-type="choco">
+          <img src="images/pink-marsh.png" alt="Choco Topping" class="cake-extra" data-type="choco">
+          <img src="images/white-marsh.png" alt="Choco Topping" class="cake-extra" data-type="choco">
+          <img src="images/sprinkels.png" alt="Choco Topping" class="cake-extra" data-type="choco">
+          <img src="images/creama1.png" alt="Choco Topping" class="cake-extra" data-type="choco">
+        </div>
+
+        <div class="cake-buttons">
+          <button id="undoBtn">Undo</button>
+          <button id="clearBtn">Clear All</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="offers" class="offer-section">
+  <div class="container">
+    
+    <div class="offer-wrapper">
+      
+      <!-- Discount Badge -->
+      <div class="discount-badge">
+        <span>30%</span>
+        <small>OFF</small>
+      </div>
+
+      <!-- Cake Image -->
+      <div class="offer-image " >
+        <img style="border-radius: 20px;   box-shadow: 0 10px 25px rgba(0,0,0,0.45);" src="images/pastries.jpg" alt="Special Offer Cake">
+      </div>
+
+      <!-- Text -->
+      <div class="offer-content">
+        <h2>Weekend Sweet Deal</h2>
+        <p>
+          Enjoy our handcrafted cakes with a special limited-time discount.
+          Fresh, delicious and made with love.
+        </p>
+        <a href="#menu" class="offer-btn">Order Now</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section id="reviews" class="reviews-section">
+  <h2 class="section-title text-center mb-5">Reviews</h2>
+
+  <div class="reviews-track">
+    <div class="reviews-row">
+      
+      <div class="review-card">
+        <p>“The custom cake builder is genius. I loved designing my cake!”</p>
+        <h5>Sarah Ahmed</h5>
+        <div class="stars" data-rate="5"></div>
+      </div>
+
+      <div class="review-card">
+        <p>“Very smooth animations and a beautiful design.”</p>
+        <h5>Ahmed Khaled</h5>
+        <div class="stars" data-rate="4"></div>
+      </div>
+
+      <div class="review-card">
+        <p>“Feels like a real premium bakery website.”</p>
+        <h5>Emily Stone</h5>
+        <div class="stars" data-rate="5"></div>
+      </div>
+
+      <div class="review-card">
+        <p>“Loved the cake customization section!”</p>
+        <h5>Mohamed Ali</h5>
+        <div class="stars" data-rate="4"></div>
+      </div>
+
+      <!-- duplicate for infinite effect -->
+      <div class="review-card">
+        <p>“The custom cake builder is genius. I loved designing my cake!”</p>
+        <h5>Sarah Ahmed</h5>
+        <div class="stars" data-rate="5"></div>
+      </div>
+
+      <div class="review-card">
+        <p>“Very smooth animations and a beautiful design.”</p>
+        <h5>Ahmed Khaled</h5>
+        <div class="stars" data-rate="4"></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== Newsletter + Feedback Section ===== -->
+<section id="newsletter" class="newsletter-section py-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-5 p-5">Stay Updated & Share Your Feedback</h2>
+    <form id="newsletterForm" class="newsletter-form mx-auto">
+      <input type="email" placeholder="Your Email" id="email" required>
+      <textarea placeholder="Your Suggestion / Feedback" id="feedback" rows="4" required></textarea>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <p id="formMessage" class="mt-3 text-center"></p>
+    </form>
+  </div>
+</section>
+
+
+  <!-- Location Section -->
+  <section id="location" class="location-section"></section>
+
+  <!-- Footer -->
+  <footer  id="location" class="footer-section"></footer>
+        <div id="contact" class="contact">
+                <h1 class="text-center"> Contact information</h1>
+            <div class="container">
+         
+                <div class="content">
+                    <p style="font-size: 40PX;"> our contact details:</p>
+                   <ul><li> <i class="fa-solid fa-location-dot"></i>Egypt, Alexandria </li> </ul>
+                    <ul> <li> <i class="fa-solid fa-phone"></i>+201153982442</li></ul>
+                    <ul><li> <i class="fa-brands fa-whatsapp"></i>+ 01153982442</li></ul>
+                    <ul><li> <i class="fa-solid fa-envelope"></i>ansammohamed93@gmail.com</li></ul> 
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d218360.18791939766!2d29.954886!3d31.224111!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1727538250112!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div> 
+                <div class="clr-fix"></div>
+
+            </div>
+        </div>
+        <!-- End contact us -->
+         <!-- start Footer -->
+      <footer id="footer" >
+	
+			
+		<div id="footer-main" >
+		
+			<div class="container">
+		
+				<div class="row">
+          
+					<div class="About">
+              <h3>About us</h3>		
+                  <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur. I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur.</p>
+                  <p>We are the champions! We are the most amazing theme of all time, yeah.</p>
+    			</div>
+				
+							
+					<div class="why">
+              <h3>Why we are special?</h3>
+              <div class="why-contant">
+              		  <i class="fa-solid fa-angle-right"></i><span>Our magical recipe.</span>
+              </div>
+              <div class="why-contant">
+                  <i class="fa-solid fa-angle-right"></i><span>Unique desserts, unique experience.</span>
+                
+              </div>
+              <div class="why-contant">
+                 <i class="fa-solid fa-angle-right"></i><span>Premium ingredients, perfect quality.</span>
+               </div>
+               <div class="why-contant">
+                  <i class="fa-solid fa-angle-right"></i><span>We are trusted by hundreds of clients.</span>
+               </div>
+               <div class="why-contant">
+                <i class="fa-solid fa-angle-right"></i><span>Freshly made desserts every day.</span>
+              </div>
+         </div>
+			
+					<div class="Hours">
+              <h3 class="hour-title">Opening Hours</h3>	
+              <div class="hours-contant"><i class="fa-solid fa-angle-right"></i><span>Monday 10AM - 9PM</span></div>	
+              <div class="hours-contant"><i class="fa-solid fa-angle-right"></i><span>Tuesday 10AM - 9PM</span></div>	
+              <div class="hours-contant"><i class="fa-solid fa-angle-right"></i><span>Wednesday 10AM - 9PM</span></div>	
+              <div class="hours-contant"><i class="fa-solid fa-angle-right"></i><span>Thursday 10AM - 10PM</span></div>	
+              <div class="hours-contant"><i class="fa-solid fa-angle-right"></i><span>Friday 10AM - 10PM</span></div>	
+              <div class="hours-contant"><i class="fa-solid fa-angle-right"></i><span>Weekends 10AM - 11PM</span></div>	
+	        	
+  				</div>
+				
+									
+					<div class="contact-details">
+              <h3 class="widget-title">Contact Details</h3>        
+        	<div class="details-item">
+            <i class="fa fa-map-marker"></i><span>Egypt , Alexandria</span>
+          </div>
+            <div class="details-item"><i class="fa-solid fa-phone"></i>
+              <span>+201153982442</span>
+            </div>
+            <div class="details-item"><i class="fa fa-envelope"></i>
+              <span>ansammohamed93@gmail.com</span>
+            </div>
+            <div class="details-item"><i class="fa fa-globe"></i>
+              <span>>http://www.ansam.com</span>
+            </div>		
+      		</div>
+
+						
+				</div>
+			
+			</div>
+		
+		</div>
+		
+	  <div id="End-footer" class="End">
+      <div class="container">
+        <div class="row2 d-flex">
+              <p class="text">Copyright 2020. All rights reserved</p>
+                  <div class="icons d-none d-lg-flex ">
+            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        </div>
+      </footer>
+  
+    <script src="js/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/main.js"></script>
+</body>
+</html>
