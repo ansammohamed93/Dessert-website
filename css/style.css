@@ -941,3 +941,62 @@ text-shadow: 0 15px 50px #f90164; /* شادو وردي */
   scrollbar-width: auto;
   scrollbar-color: #ff9a9e #fff5f8;
 }
+/* ================= HORIZONTAL SCROLL FIX ================= */
+
+/* امنع الاسكرول بالعرض */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* تأمين كل العناصر */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+/* تأمين الصور */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer icons (كانت سبب رئيسي) */
+#End-footer .icons {
+  margin-left: 0 !important;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Cake Builder min-width fix */
+.cake-canvas-wrapper {
+  min-width: unset !important;
+  width: 100%;
+}
+
+/* Reviews slider overflow */
+.reviews-track {
+  overflow-x: hidden;
+}
+
+.reviews-row {
+  width: auto !important;
+}
+
+/* Offer badge fix */
+@media (max-width: 576px) {
+  .discount-badge {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Extra mobile safety */
+@media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
